@@ -1,0 +1,37 @@
+
+
+
+public class Calculator {
+
+	public void add(){
+		System.out.println("Add some numbers");
+	}
+	
+	public void sub(){
+		System.out.println("Sub some numbers");
+	}
+	
+	public void div(){
+		System.out.println("Div some numbers");
+	}
+	
+	public void mul(){
+		System.out.println("Mul some numbers");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Calculator calc = new Calculator();
+		
+		//FirefoxDriver = new FirefoxDriver();
+		
+		Calculator calc = new Calculator();
+		
+		calc.add();
+		
+
+		
+	}
+
+}

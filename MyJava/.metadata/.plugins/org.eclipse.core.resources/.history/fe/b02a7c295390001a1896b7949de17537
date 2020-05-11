@@ -1,0 +1,29 @@
+package RakeshDemo;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import javax.naming.directory.SearchResult;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+public class DropdownTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		String url = "http://www.indianrail.gov.in/enquiry/SEAT/SeatAvailability.html?locale=en";
+		driver.get(url);
+		WebElement dropdown = driver.findElement(By.name("class"));
+		
+		Select s = new Select(dropdown);
+		s.selectByValue("1A");
+		System.out.print(s.getFirstSelectedOption());
+	}
+
+}
