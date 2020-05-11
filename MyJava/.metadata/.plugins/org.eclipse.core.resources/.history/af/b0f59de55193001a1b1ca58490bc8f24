@@ -1,0 +1,13 @@
+package page;
+
+import org.openqa.selenium.WebDriver;
+
+public class SearchPage extends Page {
+	public SearchPage(WebDriver driver){
+		super(driver);
+	}
+	public void clickSignIn() {
+		
+	}
+
+}

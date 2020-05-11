@@ -2,9 +2,4 @@ package page;
 
 public class SignPage {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
