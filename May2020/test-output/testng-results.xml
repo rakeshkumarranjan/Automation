@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-11T07:04:39Z" name="Default suite" finished-at="2020-05-11T07:04:54Z" duration-ms="14408">
+    <groups>
+    </groups>
+    <test started-at="2020-05-11T07:04:39Z" name="Default test" finished-at="2020-05-11T07:04:54Z" duration-ms="14408">
+      <class name="test.Signup">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.Signup@194bcebf]" started-at="2020-05-11T03:04:39Z" name="beforeMethod" finished-at="2020-05-11T03:04:47Z" duration-ms="8087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="googleSignup()[pri:0, instance:test.Signup@194bcebf]" started-at="2020-05-11T03:04:47Z" name="googleSignup" finished-at="2020-05-11T03:04:54Z" duration-ms="6297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSignup -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.Signup@194bcebf]" started-at="2020-05-11T03:04:54Z" name="afterMethod" finished-at="2020-05-11T03:04:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.Signup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
